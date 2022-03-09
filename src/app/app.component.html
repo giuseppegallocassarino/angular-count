@@ -1,4 +1,10 @@
-<h1>{{ title }}</h1>
-<button (click)="counter('minus')">-</button>
-<p>Count: {{ count }}</p>
-<button (click)="counter('add')">+</button>
+<div class="main">
+  <h1>{{ title }}</h1>
+  <div class="container">
+    <p>Count: {{ count }}</p>
+    <div class="container_button">
+      <button (click)="counter('add')">+</button>
+      <button (click)="counter('minus')">-</button>
+    </div>
+  </div>
+</div>
